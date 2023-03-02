@@ -3,8 +3,6 @@ import { MINIMAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { MosaicAutolayout } from '../';
 import './MosaicAutolayout.stories.css';
 
-console.log({ MINIMAL_VIEWPORTS });
-
 const meta = {
   title: 'Example/MosaicAutolayout',
   component: MosaicAutolayout,
