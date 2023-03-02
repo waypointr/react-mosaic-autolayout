@@ -1,0 +1,42 @@
+.storybook--mosaic-autolayout-child {
+  background-color: forestgreen;
+  margin-bottom: 1em;
+}
+
+.storybook--mosaic-autolayout-text-child {
+  background-color: forestgreen;
+  margin-bottom: 1em;
+  padding: 1.5em;
+}
+
+.mosaic-autolayout-container {
+  column-gap: 10px;
+}
+
+.mosaic-autolayout-container.storybook--mosaic-autolayout-single-column {
+  grid-template-columns: 1fr;
+}
+
+.mosaic-autolayout-container.storybook--mosaic-autolayout-multiple-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.mosaic-autolayout-container.storybook--mosaic-autolayout-asymmetric-columns {
+  grid-template-columns: 2fr 1fr;
+}
+
+.storybook--mosaic-autolayout-responsive-columns {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 620px) {
+  .storybook--mosaic-autolayout-responsive-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .storybook--mosaic-autolayout-responsive-columns {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+}
