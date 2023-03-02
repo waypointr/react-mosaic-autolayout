@@ -1,8 +1,16 @@
 {
   "name": "react-mosaic-autolayout",
+  "description": "Automatically layout your components with columns and tight vertical stacking",
+  "author": "Waypointr",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waypointr/react-mosaic-autolayout.git"
+  },
+  "homepage": "https://github.com/waypointr/react-mosaic-autolayout",
   "main": "dist/react-mosaic-autolayout.cjs.js",
   "module": "dist/react-mosaic-autolayout.es.js",
   "types": "dist/index.d.ts",
